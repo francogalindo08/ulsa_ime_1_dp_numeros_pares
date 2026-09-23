@@ -1,41 +1,42 @@
 # Práctica 2: Guardar los números pares
 ## 1. Descripción del problema (Fase 1)
 <!-- Explica con tus palabras qué hace tu programa y para qué serviría en la vida real. Máximo 4 líneas. -->
-
+programa que pide 5 numeros y guarde solo los numeros pares en un arreglo
 _____
 
 ## 2. Entradas y salidas (Fase 1)
 <!-- Define cada entrada y cada salida, con su tipo de dato y su objetivo. -->
-
+ entrada:los 5 numeros
+ salida:los numeros pares 
 **Entradas:**
-1. _____
+1. ___numeros__
 
 **Salidas:**
-1. _____
-2. _____
+1. ____numeeros pares:_
+2. ___numeros rechazados__
 
 ## 3. Restricciones e invariante (Fase 1 y 2)
 
 **Restricciones** (¿qué debe cumplirse?):
-- _____
-- _____
+- __que n MOD2=0___
+- ___no haya puntos decimales__
 
 **Tamaño del arreglo y por qué** (piensa en el peor caso):
-_____
+__5, por si todos los numeros pares ___
 
 **¿El 0 y los negativos son pares? ¿Por qué?**
-_____
+____si , por que si se dividen entre dos pueden no tener residuo_
 
 **Invariante** (¿qué es verdad después de cada vuelta del ciclo?):
-_____
+___que sean 5 numeros__
 
 ## 4. Casos resueltos a mano (Fase 1)
 
 | Caso | Números | Pares guardados | Posición de cada par |
 |---|---|---|---|
-| 1 | 3, 8, 5, 2, 7 | _____ | _____ |
-| 2 | _____ | _____ | _____ |
-| 3 | _____ | _____ | _____ |
+| 1 | 3, 8, 5, 2, 7 | __2___ | __0,1___ |
+| 2 | _4,6,8,10,12____ | ___5__ | 0,1,2,3,4_____ |
+| 3 | __1,3,5,7,9___ | ___0__ | __n/a___ |
 
 ## 5. Receta en pseudocódigo (Fase 2)
 <!-- Tu receta va en el archivo RECETA.md. Aquí solo responde las dos preguntas. -->
@@ -52,7 +53,14 @@ g++ -Wall -Wextra -std=c++17 main.cpp -o numeros_pares
 
 ## 7. Ejemplo de ejecución (Fase 3)
 <!-- Pega aquí lo que muestra tu programa en pantalla con un caso normal. -->
-
+Guardar los numeros pares de 5 numeros
+Escribe un numero: 7
+Escribe un numero: 8
+Escribe un numero: 10
+Escribe un numero: 5
+Escribe un numero: 4
+Se guardaron 3 numeros pares
+Los pares son: 8 10 4 
 ```
 _____
 ```
