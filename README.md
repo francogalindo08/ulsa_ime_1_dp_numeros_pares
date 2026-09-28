@@ -68,10 +68,16 @@ _____
 ## 8. Experimentos (Fase 3)
 
 **Experimento A: ¿qué apareció al imprimir las 5 posiciones del arreglo? ¿Por qué?**
-_____
+__Escribe un numero: 7
+Escribe un numero: 8
+Escribe un numero: 10
+Escribe un numero: 5
+Escribe un numero: 4
+Se guardaron 3 numeros pares
+Los pares son: 8 10 4 ___
 
 **Experimento B: ¿qué pasó al usar la variable del ciclo como posición del arreglo? ¿Por qué?**
-_____
+____ se ejecuto las veces que se requeria_
 
 ## 9. Tabla de pruebas (Fase 4)
 
@@ -82,49 +88,49 @@ _____
 | Todos pares | 2, 4, 6, 8, 10 | 5 pares | _____ | _____ |
 | Todos impares | 1, 3, 5, 7, 9 | 0 pares | _____ | _____ |
 | Con cero y negativos | 0, -3, -4, 7, 1 | 2 pares: 0, -4 | _____ | _____ |
-| Entrada inválida | `hola` o `3.5` | vuelve a pedir | _____ | _____ |
-| Caso propio 1 | _____ | _____ | _____ | _____ |
-| Caso propio 2 | _____ | _____ | _____ | _____ |
+| Entrada inválida | `hola` o `3.5` | vuelve a pedir | __no___ | ____no_ |
+| Caso propio 1 | __2,3,4,5,34___ | _3 pares____ | __2,4,34___ | _____ |
+| Caso propio 2 | __50,70,100,9020,20___ | __5 pares___ | _____ | _____ |
 
 ## 10. Bitácora de mejoras (Fase 4)
 
 | # | ¿Qué falló o qué quise mejorar? | ¿Qué cambié? | ¿Funcionó? |
 |---|---|---|---|
-| 1 | _____ | _____ | _____ |
-| 2 | _____ | _____ | _____ |
+| 1 | ____la logica_ | __la forma de escribir___ | __si___ |
 
-**Reto elegido (opcional):** _____
+
+**Reto elegido (opcional):** ___n/a__
 
 ## 11. Dudas para el profesor (Fase 3)
 
 | Duda | Lo que ya intenté |
 |---|---|
-| _____ | _____ |
+| ____nop_ | _____ |
 
 ## 12. Reflexión final
 
 **¿Qué aprendí con esta práctica?**
-_____
+__organizar de manera loigca___
 
 **Ahora que terminé, ¿qué cambiaría de mi proceso?**
-_____
+__nada yo creo___
 
 **¿Qué fue lo más difícil y cómo lo resolví?**
-_____
+__la programacion___
 
 **¿Qué pregunta me quedó sin responder?**
-_____
+____ninguna_
 
 **¿Por qué no puedo usar la variable del ciclo para guardar en el arreglo?**
-_____
+___porque puede variar__
 
 ## 13. Lista de verificación antes de entregar (Fase 5)
 
-- [ ] Llené todas las secciones (no quedan `_____`)
-- [ ] Mi programa compila sin advertencias
-- [ ] Probé todos los casos de la tabla
-- [ ] Hice los Experimentos A y B y dejé el código correcto al terminar
-- [ ] No modifiqué `utilerias.h`
-- [ ] Hice al menos 3 commits con mensajes claros
-- [ ] Hice `git push` y verifiqué mi fork en GitHub
-- [ ] Entregué el enlace de mi fork en Classroom
+- [ T] Llené todas las secciones (no quedan `_____`)
+- [ T] Mi programa compila sin advertencias
+- [ T] Probé todos los casos de la tabla
+- [T ] Hice los Experimentos A y B y dejé el código correcto al terminar
+- [ T] No modifiqué `utilerias.h`
+- [T ] Hice al menos 3 commits con mensajes claros
+- [ T] Hice `git push` y verifiqué mi fork en GitHub
+- [ T] Entregué el enlace de mi fork en Classroom
